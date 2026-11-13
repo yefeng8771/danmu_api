@@ -8,7 +8,7 @@ on:
 
 jobs:
   sync-to-huggingface:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: ${{ vars.ENABLE_HF_SYNC == 'true' }}
 
     steps:

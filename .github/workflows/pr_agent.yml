@@ -12,7 +12,7 @@ jobs:
     if: |
       github.repository == 'huangxd-/danmu_api' &&
       github.event.sender.type != 'Bot'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       issues: write
       pull-requests: write
